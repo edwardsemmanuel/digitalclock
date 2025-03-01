@@ -1,0 +1,37 @@
+body{
+    background-image: url(./images/maserati.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+
+}
+
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+    margin: auto;
+}
+
+#clock{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    backdrop-filter: blur(50px);
+    background-color: hsla(0, 0%, 100%, 0.1);
+    width: 100%;
+    color: hsl(349, 91%, 34%);
+    text-shadow: 4px 4px 0px black ;
+}
+
+/* Responsive design */
+@media(max-width: 639px){
+    #clock{
+        font-size: 4rem;
+    }
+}
